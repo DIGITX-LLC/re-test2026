@@ -73,12 +73,12 @@ export default function SchedulePage() {
           </div>
 
           {/* Right Column: Calendar Embed */}
-          <div className="lg:col-span-3 h-full max-h-[800px]">
+          <div className="lg:col-span-3  h-[400px] sm:h-[600px] lg:h-[800px]">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-white border border-zinc-200 rounded-3xl overflow-hidden shadow-2xl h-full relative"
+              className="bg-white border border-zinc-200 rounded-3xl overflow-auto shadow-2xl h-full relative"
             >
               <iframe
                 src={GOOGLE_CALENDAR_URL}
@@ -87,6 +87,7 @@ export default function SchedulePage() {
                 frameBorder="0"
                 title="Select a Date & Time"
                 className="w-full h-full"
+                scrolling='yes'
               />
             </motion.div>
           </div>

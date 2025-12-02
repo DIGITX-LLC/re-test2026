@@ -22,8 +22,7 @@ export const Navbar = () => {
   const [activeSection, setActiveSection] = useState('');
   const pathname = usePathname();
 
-  // Don't render navbar on /schedule page to avoid double header
-  if (pathname === '/schedule') return null;
+ 
 
   // Handle active section on scroll
   useEffect(() => {
@@ -57,6 +56,11 @@ export const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+   // Don't render navbar on /schedule page to avoid double header
+   if (pathname === '/schedule') {
+    return <></>;
+   }
 
   return (
     <>
