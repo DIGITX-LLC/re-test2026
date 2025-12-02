@@ -73,7 +73,7 @@ export default function SchedulePage() {
           </div>
 
           {/* Right Column: Calendar Embed */}
-          <div className="lg:col-span-3  h-[400px] sm:h-[600px] lg:h-[800px]">
+          <div className="lg:col-span-3  h-[400px] sm:h-[500px] lg:h-[600px]">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
