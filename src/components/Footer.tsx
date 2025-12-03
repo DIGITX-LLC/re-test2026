@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
@@ -28,7 +29,15 @@ export const Footer = () => {
           {/* Brand & Contact Column */}
           <div className="flex flex-col items-center md:items-start">
             <Link href="/" className="text-3xl font-bold text-white tracking-tighter inline-block mb-6 group">
-              re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span>
+              {/* re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span> */}
+            
+              <Image
+         src="/assets/re-test logo.svg"
+            alt="re-test logo"
+           width={120}
+           height={40}
+              className="w-24 lg:w-28 h-auto"
+             />
             </Link>
             
             <div className="text-zinc-400 text-sm space-y-2 font-light">

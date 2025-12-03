@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react';
 import { Button } from './Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
+import Image from 'next/image';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -64,17 +65,25 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="fixed top-6 inset-x-0 max-w-5xl mx-auto px-4 z-50 flex justify-center pointer-events-none">
+      <div className="fixed top-6 inset-x-0 max-w-5xl mx-auto px-2 z-50 flex justify-center pointer-events-none">
         <motion.nav
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="pointer-events-auto relative flex items-center justify-between w-full bg-zinc-900/60 backdrop-blur-xl border border-white/5 rounded-full px-2 py-2 shadow-2xl shadow-black/20"
+          className="pointer-events-auto relative flex items-center justify-between w-full bg-zinc-900/60 backdrop-blur-xl border border-white/5 rounded-full px-1 py-1 shadow-2xl shadow-black/20"
         >
           {/* Logo */}
           <div className="flex-shrink-0 pl-4">
-            <Link href="/" className="text-xl font-bold text-white tracking-tighter group">
-              re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span>
+          
+            <Link href="/" >
+              {/* re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span> */}
+              <Image
+         src="/assets/re-test logo.svg"
+            alt="re-test logo"
+           width={120}
+           height={40}
+              className="w-20 lg:w-24 h-auto"
+             />
             </Link>
           </div>
 
