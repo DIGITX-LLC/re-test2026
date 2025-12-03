@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const Hero = () => {
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden pt-20">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden lg:pt-20">
       {/* Background Grid Pattern with Enhanced Visibility */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808025_1px,transparent_1px),linear-gradient(to_bottom,#80808025_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_40%,#000_60%,transparent_100%)] pointer-events-none" />
 
@@ -26,7 +26,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
-            className="text-5xl md:text-7xl font-bold tracking-tight text-white mb-8 leading-[1.1]"
+            className="text-3xl md:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-8 leading-[1.1]"
           >
             Turn AI Code into <br />
             <span className="relative inline-block">
@@ -41,7 +41,7 @@ export const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="text-xl md:text-2xl text-zinc-400 mb-12 max-w-3xl mx-auto leading-relaxed text-balance font-light"
+            className="test-sm md:text-xl lg:text-2xl text-zinc-400 mb-12 max-w-3xl mx-auto leading-relaxed text-balance font-light"
           >
              AI writes code fast, but <span className="text-white font-medium">speed isn't quality</span>. We bridge the gap between <span className="italic text-zinc-300">Code Complete</span> and <span className="italic text-zinc-300">Release Ready</span>—ensuring your product is secure, bug-free, and trusted by users.
           </motion.p>

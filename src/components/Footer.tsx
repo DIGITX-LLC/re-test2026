@@ -36,7 +36,7 @@ export const Footer = () => {
             alt="re-test logo"
            width={120}
            height={40}
-              className="w-24 lg:w-28 h-auto"
+              className="w-24 md:30 lg:w-32 h-auto"
              />
             </Link>
             

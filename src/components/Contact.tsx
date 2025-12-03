@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-32 bg-black relative overflow-hidden">
+    <section id="contact" className="lg:py-32 bg-black relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-red-900/10 blur-[120px] rounded-full pointer-events-none mix-blend-screen" />
       
@@ -18,7 +18,7 @@ export const Contact = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-5xl md:text-7xl font-bold text-white mb-8 tracking-tight">
+          <h2 className="text-2xl md:text-5xl lg:text-7xl font-bold text-white mb-8 tracking-tight">
             Ready to <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Ship?</span>
           </h2>
           <p className="text-xl text-zinc-400 mb-12 max-w-2xl mx-auto leading-relaxed font-light">

@@ -70,7 +70,7 @@ export const Navbar = () => {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="pointer-events-auto relative flex items-center justify-between w-full bg-zinc-900/60 backdrop-blur-xl border border-white/5 rounded-full px-1 py-1 shadow-2xl shadow-black/20"
+          className="pointer-events-auto relative flex items-center justify-between w-full bg-zinc-900/60 backdrop-blur-xl border border-white/5 rounded-full px-2 py-2 shadow-2xl shadow-black/20"
         >
           {/* Logo */}
           <div className="flex-shrink-0 pl-4">
@@ -80,9 +80,9 @@ export const Navbar = () => {
               <Image
          src="/assets/re-test logo.svg"
             alt="re-test logo"
-           width={120}
+           width={40}
            height={40}
-              className="w-20 lg:w-24 h-auto"
+              className="w-20 lg:w-26 h-auto"
              />
             </Link>
           </div>

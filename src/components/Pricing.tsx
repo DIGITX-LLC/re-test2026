@@ -133,14 +133,14 @@ export const Pricing = () => {
   const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
 
   return (
-    <section id="pricing" className="py-24 bg-black relative overflow-hidden border-t border-white/5">
+    <section id="pricing" className=" py-24 bg-black relative overflow-hidden border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-red-700 font-semibold tracking-wide uppercase text-sm mb-3">Pricing</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h3 className="text-xl md:text-3xl md:text-4xl font-bold text-white mb-4">
             Flexible Plans for <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Every Stage</span>
           </h3>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
+          <p className="text-zinc-400 text-sm  lg:text-xl px-4 max-w-2xl mx-auto">
             Whether you're an early-stage startup or an established enterprise, we have a QA solution that fits your scale.
           </p>
         </div>

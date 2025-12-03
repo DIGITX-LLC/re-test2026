@@ -95,19 +95,19 @@ function IndustryCard({ industry, index }: { industry: any, index: number }) {
 
 export const Industries = () => {
   return (
-    <section id="industries" className="py-24 bg-black relative border-t border-white/5">
+    <section id="industries" className="lg:py-24 bg-black relative border-t border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-red-700 font-semibold tracking-wide uppercase text-sm mb-3">Industries</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
             Quality Engineered for <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Every Scale</span>
           </h3>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
+          <p className="text-zinc-400 text-sm px-2 lg:text-xl max-w-2xl mx-auto">
             From high-frequency trading to life-saving medical devices, we understand the specific nuances of your domain.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {industries.map((industry, index) => (
             <IndustryCard key={index} industry={industry} index={index} />
           ))}

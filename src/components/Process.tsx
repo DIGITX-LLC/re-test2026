@@ -123,7 +123,7 @@ export const Process = () => {
   const height = useTransform(scrollYProgress, [0, 1], ["0%", "100%"]);
 
   return (
-    <section id="process" className="py-32 bg-black relative overflow-hidden">
+    <section id="process" className="lg:py-32 bg-black relative overflow-hidden">
       {/* Background Ambience */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] pointer-events-none opacity-20" />
       
@@ -133,7 +133,7 @@ export const Process = () => {
           <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">
             Path to <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800">Production</span>
           </h3>
-          <p className="text-zinc-400 max-w-2xl mx-auto">
+          <p className="text-sm lg:text-xl px-4 text-zinc-400 max-w-2xl mx-auto">
             A rigorous, battle-tested framework ensuring your software survives the real world.
           </p>
         </div>
