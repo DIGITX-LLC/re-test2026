@@ -82,7 +82,7 @@ export const Navbar = () => {
             alt="re-test logo"
            width={40}
            height={40}
-              className="w-20 lg:w-26 h-auto"
+              className="w-26 lg:w-32 h-auto"
              />
             </Link>
           </div>

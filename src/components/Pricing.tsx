@@ -101,7 +101,7 @@ function PricingCard({ plan, index, onSelect }: { plan: any, index: number, onSe
         <p className="text-zinc-400 text-sm mb-6">{plan.desc}</p>
         
         <div className="mb-8 flex items-baseline">
-          <span className="text-3xl font-bold text-white">{plan.price}</span>
+          <span className="text-xl lg:text-3xl font-bold text-white">{plan.price}</span>
           {plan.period && <span className="text-zinc-500 text-sm ml-1">{plan.period}</span>}
         </div>
 

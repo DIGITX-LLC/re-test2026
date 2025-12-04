@@ -26,8 +26,8 @@ export const Contact = () => {
           </p>
 
           <div className="flex flex-col items-center gap-6">
-            <Link href="/schedule" passHref className="w-full sm:w-auto">
-              <Button size="lg" className="w-full sm:w-auto h-16 px-10 text-lg rounded-full shadow-[0_0_40px_rgba(220,38,38,0.3)] hover:shadow-[0_0_60px_rgba(220,38,38,0.5)] transition-shadow duration-500 group">
+            <Link href="/schedule" passHref className="lg:w-full sm:w-auto">
+              <Button size="lg" className="lg:w-full sm:w-auto lg:h-16 lg:px-10 text-lg rounded-full shadow-[0_0_40px_rgba(220,38,38,0.3)] hover:shadow-[0_0_60px_rgba(220,38,38,0.5)] transition-shadow duration-500 group">
                 <Mail className="mr-3 h-5 w-5" />
                 Start Your Project
                 <ArrowRight className="ml-3 h-5 w-5 group-hover:translate-x-1 transition-transform" />
