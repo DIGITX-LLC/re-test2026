@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react';
 import { Button } from './Button';
 import { motion, AnimatePresence } from 'framer-motion';
 import { clsx } from 'clsx';
+import Image from 'next/image';
 
 const navLinks = [
   { name: 'Home', href: '/' },
@@ -22,8 +23,7 @@ export const Navbar = () => {
   const [activeSection, setActiveSection] = useState('');
   const pathname = usePathname();
 
-  // Don't render navbar on /schedule page to avoid double header
-  if (pathname === '/schedule') return null;
+ 
 
   // Handle active section on scroll
   useEffect(() => {
@@ -58,9 +58,14 @@ export const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+   // Don't render navbar on /schedule page to avoid double header
+   if (pathname === '/schedule') {
+    return <></>;
+   }
+
   return (
     <>
-      <div className="fixed top-6 inset-x-0 max-w-5xl mx-auto px-4 z-50 flex justify-center pointer-events-none">
+      <div className="fixed top-6 inset-x-0 max-w-5xl mx-auto px-2 z-50 flex justify-center pointer-events-none">
         <motion.nav
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -69,8 +74,16 @@ export const Navbar = () => {
         >
           {/* Logo */}
           <div className="flex-shrink-0 pl-4">
-            <Link href="/" className="text-xl font-bold text-white tracking-tighter group">
-              re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span>
+          
+            <Link href="/" >
+              {/* re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span> */}
+              <Image
+         src="/assets/re-test logo.svg"
+            alt="re-test logo"
+           width={40}
+           height={40}
+              className="w-26 lg:w-32 h-auto"
+             />
             </Link>
           </div>
 

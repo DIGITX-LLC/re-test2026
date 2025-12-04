@@ -4,13 +4,14 @@ import { motion } from 'framer-motion';
 import { Button } from '@/components/Button';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // We resolved the short link to this long URL and added ?gv=true for embedding
 const GOOGLE_CALENDAR_URL = "https://calendar.google.com/calendar/appointments/schedules/AcZssZ0tszrwTsDxqjSDM1iQW3Gxo9osJsqLCqYVgLi-6Fdq7j5S12Vv_7mWy6V8-rnFTBZ9pMloEfEu?gv=true";
 
 export default function SchedulePage() {
   return (
-    <div className="h-screen w-full bg-black text-white relative flex flex-col overflow-hidden">
+    <div className="min-h-screen w-full bg-black text-white relative flex flex-col ">
       {/* Background Effects */}
       <div className="fixed inset-0 z-0 pointer-events-none">
         <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-red-900/10 rounded-full blur-[120px]" />
@@ -24,13 +25,22 @@ export default function SchedulePage() {
             <ArrowLeft className="w-4 h-4" />
             <span>Back to Home</span>
           </Link>
-          <div className="text-xl font-bold tracking-tighter">
+          {/* <div className="text-xl font-bold tracking-tighter">
             re-<span className="text-red-600">{'{test}'}</span>
-          </div>
+          </div> */}
+          <Link href="/" >
+              <Image
+         src="/assets/re-test logo.svg"
+            alt="re-test logo"
+           width={40}
+           height={40}
+              className="w-26 lg:w-32 h-auto"
+             />
+            </Link>
         </div>
       </header>
 
-      <main className="flex-1 relative z-10 container mx-auto px-4 py-6 flex flex-col min-h-0">
+      <main className="flex-1 relative z-10 container mx-auto px-4 py-6 flex flex-col min-h-0 overflow-y-auto">
         <div className="grid lg:grid-cols-5 gap-8 h-full items-center">
           {/* Left Column: Context & Value Prop */}
           <div className="lg:col-span-2 flex flex-col justify-center">
@@ -73,12 +83,13 @@ export default function SchedulePage() {
           </div>
 
           {/* Right Column: Calendar Embed */}
-          <div className="lg:col-span-3 h-full max-h-[800px]">
+          <div className="lg:col-span-3  h-[500px] sm:h-[600px] lg:h-[700px] overflow-auto">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="bg-white border border-zinc-200 rounded-3xl overflow-hidden shadow-2xl h-full relative"
+              className="bg-white border border-zinc-200 rounded-3xl overflow-auto shadow-2xl h-full relative touch-pan-y"
+              style={{ WebkitOverflowScrolling: "touch", overflowY: "auto" }}
             >
               <iframe
                 src={GOOGLE_CALENDAR_URL}
@@ -87,9 +98,29 @@ export default function SchedulePage() {
                 frameBorder="0"
                 title="Select a Date & Time"
                 className="w-full h-full"
+                style={{ pointerEvents: "auto" }}
               />
             </motion.div>
           </div>
+
+           {/* Right: Calendar */}
+      {/* <div className="md:w-3/5 h-[600px] md:h-[700px] lg:h-[800px] relative bg-[#0F0F13] shadow-black/30 ">
+        
+        <div className="absolute inset-0 bg-white shadow-black/30 shadow-[inset_10px_0_20px_-10px_rgba(0,0,0,0.5)] flex items-center justify-center z-0">
+          <div className="flex flex-col  items-center gap-3 opacity-50">
+            <div className="w-8 h-8 rounded-full border-2 border-white/20 border-t-white animate-spin"></div>
+            <p className="text-white text-xs">Loading Calendar...</p>
+          </div>
+        </div>
+
+       
+        <iframe
+          src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ1QS2IclaPa_-oQ1QXscXpR8Tq0IbT5nARDwN6CWZ0SevrEN9ZRD16jHwONc8tBCCLm01UyG6ZZ?gv=true"
+          className="absolute inset-0 w-full h-full"
+          style={{ border: 0 }}
+        ></iframe>
+        
+      </div> */}
         </div>
       </main>
     </div>

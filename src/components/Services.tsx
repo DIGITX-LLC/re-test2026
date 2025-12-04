@@ -60,7 +60,8 @@ function ServiceCard({ service, index }: { service: any, index: number }) {
 
 export const Services = () => {
   return (
-    <section id="services" className="bg-zinc-900/30 py-24 border-t border-white/5 relative overflow-hidden">
+    <section id="services" className="bg-zinc-900/30 lg:
+    py-24 border-t border-white/5 relative overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-7xl pointer-events-none">
          <div className="absolute top-[20%] right-[-10%] w-[600px] h-[600px] bg-red-900/5 blur-[120px] rounded-full mix-blend-screen" />
@@ -69,15 +70,15 @@ export const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-red-700 font-semibold tracking-wide uppercase text-sm mb-3">Our Services</h2>
-          <h3 className="text-3xl md:text-5xl font-bold text-white mb-6">
+          <h3 className="text-2xl md:text-3xl md:text-5xl font-bold text-white mb-6">
             Services That <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 via-red-700 to-red-900">Ship Products</span>
           </h3>
-          <p className="mt-4 text-xl text-zinc-400 max-w-2xl mx-auto font-light">
+          <p className="mt-4 px-2 text-xl text-zinc-400 max-w-2xl mx-auto font-light">
             We don't just find bugs; we clear the path to production.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {[
             { title: 'Codebase Verification', icon: <Code />, desc: 'Deep analysis of AI-generated and human-written code for logic and structural integrity.' },
             { title: 'Security Hardening', icon: <Lock />, desc: 'Identify vulnerabilities and lock down your application before users do.' },
