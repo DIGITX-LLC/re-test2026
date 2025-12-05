@@ -1,0 +1,595 @@
+[00:00:00.833] Server  LOG      ✓ Ready in 624ms
+[00:00:05.856] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.221] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[00:00:06.589] Browser WARN    Image with src "/assets/re-test logo.svg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:54.950] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:28:27.765] Server  LOG      ✓ Compiled in 0ms
+[00:28:28.055] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:29.283] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="scroll-smo...">
+                          <body
+                            className="geist_a71539c9-module__T19VSG__variable geist_mono_8d43a2aa-module__8Li5zG__var..."
+-                           cz-shortcut-listen="true"
+                          >
+                  ...
+
+[00:28:30.900] Server  LOG      ✓ Compiled in 0ms
+[00:28:31.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:39.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:47.083] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.533] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.541] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.549] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.556] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.564] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.572] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.580] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.589] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.597] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.604] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.610] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.616] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:47.616] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:47.616] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:47.630] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:47.742] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:48.899] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:48.899] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:48.899] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:48.899] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:53.223] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:53.328] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:53.492] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:53.492] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:53.492] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:53.492] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:58.284] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:58.396] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:55:58.547] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:58.547] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:58.547] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:55:58.547] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:00.125] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:00.226] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:00.420] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:00.420] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:00.420] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:00.420] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:00.925] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:01.019] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:01.173] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:01.173] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:01.173] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:01.173] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:14.888] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:40.640] Server  LOG      ✓ Compiled in 224ms
+[00:56:40.743] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:40.743] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.5_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:56:40.743] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:56:41.024] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:56:41.566] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.582] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.588] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.593] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.598] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.606] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.612] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.618] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.624] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.629] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.634] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.640] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.648] Server  ERROR    ⨯ ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:41.737] Browser ERROR   uncaughtError: Error: ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+
+
+[00:56:42.935] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:42.935] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:42.935] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:42.935] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:47.888] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[00:56:49.887] Browser ERROR   ./src/app/favicon.ico
+Processing image failed
+unable to decode image data
+
+Caused by:
+- Format error decoding Ico: ICO image entry has too many color planes or too large hotspot value
+- ICO image entry has too many color planes or too large hotspot value
+[01:03:16.288] Server  LOG      ✓ Compiled in 200ms
+[01:03:16.397] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:03:16.397] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./node_modules/.pnpm/next@16.0.5_@babel+core@7.28.5_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/shared/lib/router/router.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:03:16.397] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:03:16.627] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
