@@ -31,7 +31,7 @@ export default function SchedulePage() {
           </div> */}
           <Link href="/" >
               <Image
-         src="/assets/re-test logo.svg"
+         src="/assets/re-test-logo.svg"
             alt="re-test logo"
            width={40}
            height={40}

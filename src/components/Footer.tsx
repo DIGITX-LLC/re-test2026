@@ -32,7 +32,7 @@ export const Footer = () => {
               {/* re-<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'{'}</span>test<span className="text-red-600 group-hover:text-red-500 transition-colors duration-300">{'}'}</span> */}
             
               <Image
-         src="/assets/re-test logo.svg"
+         src="/assets/re-test-logo.svg"
             alt="re-test logo"
            width={120}
            height={40}
